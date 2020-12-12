@@ -1,3 +1,5 @@
+library(dplyr)
+
 filename<- "Final.zip"
 
 if(!file.exists(filename)){
@@ -7,4 +9,5 @@ if(!file.exists(filename)){
 if(!file.exists("UCI HAR Dataset")) {
         unzip(filename)
 }
+
 
